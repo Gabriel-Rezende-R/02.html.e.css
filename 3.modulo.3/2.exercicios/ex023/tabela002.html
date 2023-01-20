@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        tbody >tr:nth-child(2n){
+            background-color: lightblue;
+        }
+        thead>tr>th{
+            position: sticky;
+            top:-1px;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- hierarquia de tabelas grandes
+    Table
+        Thead
+            tr,td, th
+        TBody
+            tr,td, th        
+        Toot
+            tr,td, th    
+    -->
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px
+                ;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 910 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>27 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 910 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>27 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 910 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>27 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 910 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>27 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 910 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>27 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 910 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>27 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 910 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>27 264 943</td>
+            </tr>
+               
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</td>
+                <th><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis, iure tempora, explicabo sit vel corporis assumenda quaerat nisi adipisci maiores ducimus aut expedita nesciunt quasi autem repellendus magnam eius.
+    </p>
+</body>
+</html>
