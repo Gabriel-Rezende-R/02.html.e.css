@@ -21,11 +21,13 @@ section{
     width: 750px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    padding-right: 40px;
 }
 section p{
     text-align: justify;
     padding: 20px;
-    text-indent: 10px;
+   text-indent: 10px;
+   margin: 10px;
 }
 section h1{
     padding: 10px; 
@@ -37,4 +39,9 @@ footer{
     background-color: darkblue;
     color: white;
     text-align: center;
+    
+}
+
+footer a{
+    color: white;
 }
