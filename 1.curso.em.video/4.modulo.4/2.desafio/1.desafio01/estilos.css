@@ -11,7 +11,7 @@ html,body{
    
 }
 body{
-    background: url(../ex0025/pacote-d013/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url(../1.desafio01/pacote-d013/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -27,7 +27,7 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url(../ex0025/pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
+    background: url(../1.desafio01/pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
 }
 iframe#tela{
     position: relative;
