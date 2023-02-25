@@ -7,10 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>exercícios e desafios do curso de HTML5 e CSS3 do Curso em vídeo</h1>
-    <h2>Exercícios<h2>
-    <a href="https://gabriel-rezende-r.github.io/02.html.e.css/1.modulo.1/01.desafios/desafio.01/desafio01.html">Desafio01  </a>
-    <h2>Desafios<h2>
+    <h1>Conheça o meu caderno digital de HTML5 E CSS3!!</h1>
+    <a href="https://gabriel-rezende-r.github.io/02.html.e.css/index.html">CLIQUE AQUI  </a>
+
     
 
     
